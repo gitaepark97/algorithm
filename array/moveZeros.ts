@@ -1,4 +1,4 @@
-export function moveZeros(nums: number[]) {
+export function moveZeros(nums: number[]): number[] {
   let wIdx: number = 0
   nums.map(value => {
     if (value !== 0) {
